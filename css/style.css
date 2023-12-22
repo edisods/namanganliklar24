@@ -1,4 +1,4 @@
-/* Global */
+/* GLOBAL */
 * {
   box-sizing: border-box;
 }
@@ -7,23 +7,25 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 }
+/* BODY STYLES */
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Rubik", "Arial" sans-serif;
+  font-family: Rubik, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   background-color: #fff;
   color: #4a4b4c;
 }
+/* IMAGE STYLES */
 img {
   max-width: 100%;
   height: auto;
 }
-/* Container */
+/* CONTAINER */
 .container {
   width: 100%;
   max-width: 1240px;
@@ -31,4 +33,122 @@ img {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* SITE HEADER */
+.site-header {
+
+}
+
+/* SITE HEADER TOP */
+.site-header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6f6f6;
+}
+
+/* SITE HEADER TOP CONTAINER */
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+}
+
+/* CONTAINER */
+.container {
+}
+
+/* LOGO */
+.site-header-logo {
+  display: flex;
+  margin-right: 35px;
+  padding: 8px 6px;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.site-header-logo:hover{
+  opacity: 0.8;
+}
+
+.site-header-logo:active{
+  opacity: 0.6;
+}
+
+/* LOGO IMAGE */
+.site-header-logo-img {
+}
+
+/* CURRENT RATES */
+.currency-rates {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: auto;
+}
+
+/* CURRENT ITEM */
+.currency-rates-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+/* CURRENT TYPE */
+.currency-rates-type {
+  color: #2959ce;
+}
+
+/* LANGUAGE TOGGLE */
+.lang-toggle {
+  display: flex;
+  border-radius: 39px;
+  padding: 3px;
+  margin-right: 25px;
+  background-color: #dce6ff;
+}
+
+/* LANGUAGE LINK */
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #a6a6a6;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+/* LANGUAGE ACTIVE LINK */
+.lang-toggle-link-active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ENTER BUTTON */
+.button {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 10px;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+/* ENTER BUTTON PRIMARY */
+.button-primary {
+  background-color: #7296ec;
+  color: #fff;
+}
+
+.button-primary:hover{
+  opacity: 0.8;
+}
+
+.button-primary:active{
+  opacity: 0.6;
 }
