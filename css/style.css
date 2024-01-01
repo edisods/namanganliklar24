@@ -44,6 +44,7 @@ img {
 .site-header-top {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 10px;
   background-color: #f6f6f6;
 }
 
@@ -171,4 +172,45 @@ img {
 
 .button-primary:active{
   opacity: 0.6;
+}
+
+/* SITENAV STYLES */
+
+.sitenav {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d1d1d1;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 33px;
+}
+.sitenav-link {
+  display: block;
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+.sitenav-link:hover {
+  color: #7296ec
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+/* SITE HEADER BANNER LINK */
+.site-header-banner-link {
+  display: flex;
 }
