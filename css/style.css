@@ -1,12 +1,24 @@
 /* GLOBAL */
+:root {
+  --accent-color: #7296ec;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 * {
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-  scroll-behavior: smooth;
-}
 /* BODY STYLES */
 body {
   display: flex;
@@ -128,7 +140,7 @@ img {
 }
 /* OUTLINE STYLES */
 *:focus {
-  outline: 2px dotted #7296ec;
+  outline: 2px dotted var(--accent-color);
   outline-offset: 3px;
 }
 
@@ -166,7 +178,7 @@ img {
 
 /* ENTER BUTTON PRIMARY */
 .button-primary {
-  background-color: #7296ec;
+  background-color: var(--accent-color);
   color: #fff;
 }
 
@@ -226,7 +238,7 @@ img {
 }
 
 .sitenav-link:hover {
-  color: #7296ec
+  color: var(--accent-color)
 }
 
 .sitenav-link:active {
@@ -279,7 +291,7 @@ img {
 }
 
 .article-card-link:hover{
-  color: #7296ec;
+  color: var(--accent-color);
 }
 
 .article-card-link:active{
@@ -391,7 +403,7 @@ img {
 }
 
 .article-card-horizontal-link:hover {
-  color: #7296ec;
+  color: var(--accent-color);
 }
 
 .article-card-horizontal-link:active {
@@ -499,7 +511,7 @@ img {
 }
 
 .sidebar-news-card-link:hover{
-  color: #7296ec;
+  color: var(--accent-color);
 }
 
 .sidebar-news-card-link:active{
